@@ -182,13 +182,14 @@ function P(numN){
 	
 	
 	console.log("кол-во совпадений: " + result);
+	
 	b = Date.now();
 	res = b - a;
 
 	console.log("скрипт выполнялся " + res + " ms");
 }
 
-P(11085);
+//P(11085);
 
 
 

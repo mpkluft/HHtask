@@ -82,4 +82,4 @@ function wonderfullNumber(firstNum, lastNum){
 	console.log("скрипт выполнялся " + res + " ms");
 }
 
-wonderfullNumber(1, 3400000);
+//wonderfullNumber(1, 3400000);
