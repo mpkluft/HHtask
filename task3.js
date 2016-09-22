@@ -54,7 +54,7 @@ function findNumber(number){
 }
 
 
-var x = findNumber(11085);
+var x = findNumber(18556);
 //console.log("Кол-во эл-тов в массиве: " + x.length);
 
 
@@ -189,7 +189,7 @@ function P(numN){
 	console.log("скрипт выполнялся " + res + " ms");
 }
 
-//P(11085);
+//P(18556);
 
 
 

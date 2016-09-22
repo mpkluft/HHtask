@@ -13,7 +13,7 @@
  чисел меньших 13332 таких, что из них нельзя 
  получить палиндром за 50 или менее применений 
  описанной операции (операция должна быть применена 
- хотя бы один раз). 
+ хотя бы один раз).
 
 */
 
@@ -37,7 +37,7 @@ function findPolindrom(num){
 			chekNum = i;
 			//console.log("Проверяемое число " + chekNum);
 
-		for(var j = 0; j < 50; j++) {
+		for(var j = 0; j <= 50; j++) {
 
 			reverse = reverseNumber(chekNum);
 			//console.log("Реверс проверяемого числа " + reverse);
@@ -71,6 +71,6 @@ function findPolindrom(num){
 	console.log("Кол-во чисел,  нельзя получить полиндром " + (num - 1 - result));
 }
 
-findPolindrom(13332);
+//findPolindrom(13332);
 
 //13332
